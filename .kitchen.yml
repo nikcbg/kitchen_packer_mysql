@@ -6,9 +6,9 @@ provisioner:
   name: shell
 
 platforms:
-  - name: vbox/mysql64_2
+  - name: vbox/mysql64
     driver:
-      box: mysql64_2
+      box: mysql64
       provider: virtualbox
  
 verifier:
