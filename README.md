@@ -25,8 +25,8 @@ File name | File description
 - Execute `packer build template.json`  to start building the virtual machine you need to run your tests on. 
 - After that you should see this message `mysql-vbox: 'virtualbox' provider box: mysql-vbox.box` which means that the VM box was created successfully.
 - Execute `vagrant box list` to see the list of `vagrant` boxes.
-- Execute `vagrant box add --name mysql mysql-vbox.box` to add the newly created `packer` box. 
-- Execute `vagrant init mysql` to create Vagrantfile if one doesn't already exist.  
+- Execute `vagrant box add --name mysql64 mysql64-vbox.box` to add the newly created `packer` box. 
+- Execute `vagrant init mysql64` to create Vagrantfile if one doesn't already exist.  
 
 
 ### Setting up `ruby` environment on Ubuntu 18.04 instructions:
